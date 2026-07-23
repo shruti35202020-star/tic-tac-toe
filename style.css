@@ -66,4 +66,28 @@ body{
     
 
 }
+@media screen and (max-width: 600px) {
+
+    .container{
+        min-height: auto;
+        margin-top: 20px;
+    }
+
+    .game{
+        width: 94vmin;
+        justify-content: center;
+    }
+
+    .box{
+        width: 30vmin;
+        height: 30vmin;
+        font-size: 12vmin;
+    }
+
+    #reset-btn,
+    #new-btn{
+        width: 80%;
+        margin-top: 20px;
+    }
+}
 
