@@ -66,28 +66,37 @@ body{
     
 
 }
-@media screen and (max-width: 600px) {
+/* Mobile Responsive */
+@media (max-width: 600px) {
 
     .container{
-        min-height: auto;
+        height: auto;
         margin-top: 20px;
     }
 
     .game{
-        width: 94vmin;
-        justify-content: center;
+        width: 95vw;
+        max-width: 330px;
+        gap: 8px;
     }
 
     .box{
-        width: 30vmin;
-        height: 30vmin;
-        font-size: 12vmin;
+        width: 30vw;
+        height: 30vw;
+        max-width: 95px;
+        max-height: 95px;
+        font-size: 40px;
     }
 
     #reset-btn,
     #new-btn{
-        width: 80%;
-        margin-top: 20px;
+        width: 180px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    #msg{
+        margin: 20px 0;
+        padding: 12px;
     }
 }
-
